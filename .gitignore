@@ -1,1 +1,41 @@
+# ---------------------------------------------------
+# 1. Dados e Banco de Dados (MUITO IMPORTANTE)
+# ---------------------------------------------------
+# Ignora a pasta inteira de dados para evitar subir arquivos pesados do Olist
+data/
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.db
+*.sqlite3
 
+# ---------------------------------------------------
+# 2. Ambientes Virtuais e Dependências
+# ---------------------------------------------------
+# Ignora as pastas onde o Python instala as bibliotecas locais
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ---------------------------------------------------
+# 3. Jupyter Notebooks
+# ---------------------------------------------------
+# Ignora os arquivos de backup automáticos do Jupyter
+.ipynb_checkpoints/
+
+# ---------------------------------------------------
+# 4. Streamlit e Credenciais
+# ---------------------------------------------------
+# Ignora o arquivo de senhas do Streamlit, caso você conecte a um banco em nuvem depois
+.streamlit/secrets.toml
+
+# ---------------------------------------------------
+# 5. Arquivos de Sistema e Compilação do Python
+# ---------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
